@@ -1,0 +1,15 @@
+.historyContainer {
+    padding: 2rem;
+  }
+  
+  .historyTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .historyTable th,
+  .historyTable td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  

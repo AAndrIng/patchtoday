@@ -1,0 +1,11 @@
+.adminContainer {
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .error {
+    color: red;
+    padding: 2rem;
+    text-align: center;
+  }
+  
