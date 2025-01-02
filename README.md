@@ -1,5 +1,5 @@
 # patchtoday
-a simple blog of ciber security news and interesting stuffs.. NOW WHIT WALLET
+a simple blog of ciber security news and interesting stuffs.. NOW WITH WALLET
 
 # Getting Started with Create React App
 
