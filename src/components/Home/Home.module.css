@@ -1,0 +1,34 @@
+.homeContainer {
+    padding: 2rem;
+  }
+  
+  .slogan {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  .vulnTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .vulnTable th,
+  .vulnTable td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+  }
+  
+  .chainsBand {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .chainsBand img {
+    width: 50px;
+    height: auto;
+  }
+  

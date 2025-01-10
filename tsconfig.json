@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    // Define la versión de ECMAScript a la que apuntas
+    "target": "ESNext",
+    // Módulos ES para Vite / React
+    "module": "ESNext",
+    // Bibliotecas que va a usar (DOM para navegador, ESNext para nuevas funciones)
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    // Cómo se compila JSX (para React 17+ o 18+)
+    "jsx": "react",
+    // Activa las comprobaciones estrictas de TypeScript
+    "strict": true,
+    // Cómo se resuelven los módulos
+    "moduleResolution": "node",
+    // Facilita las importaciones y evitas conflictos con "require"
+    "esModuleInterop": true,
+    // Omite la verificación de tipos en las dependencias, acelera builds
+    "skipLibCheck": true,
+    // Asegura coherencia en mayúsculas/minúsculas en los imports
+    "forceConsistentCasingInFileNames": true,
+    // Permite alias o rutas relativas desde la raíz si lo deseas
+    "baseUrl": ".",
+    // Define la carpeta principal de tu código (asumiendo que todo está en /src)
+    "rootDir": "src",
+    // Carpeta donde se pondrá el JS compilado si usas `tsc -p` antes de build
+    "outDir": "dist",
+
+    // Aquí agregas typeRoots:
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src"
+    ]
+  },
+  // Incluye todos los archivos de /src
+  "include": ["src"],
+  // Excluye la carpeta de salida y node_modules
+  "exclude": ["node_modules", "dist"]
+}

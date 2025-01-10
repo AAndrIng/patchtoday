@@ -1,0 +1,22 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #282c34;
+}
+
+.leftSection {
+  font-size: 20px;
+  color: white;
+}
+
+.rightSection button,
+.rightSection .navLink {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.rightSection .navLink:hover {
+  text-decoration: underline;
+}
